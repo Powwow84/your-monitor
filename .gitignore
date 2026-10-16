@@ -1,0 +1,14 @@
+# Programs that go build writes
+/your-monitor
+*.exe
+*.test
+
+# Coverage profiles from go test -coverprofile
+*.out
+
+# Secrets: never commit these
+.env
+
+# Editor and operating system files
+.idea/
+.DS_Store
